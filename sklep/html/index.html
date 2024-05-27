@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/glowna.css">
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i><span class="text"> Home</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Produkty</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Przegladaj.html"> Przeglądaj nasze produkty</a></li>
+                            <li><a class="dropdown-item" href="Owoce_warzywa.html"> Owoce i warzywa</a></li>
+                            <li><a class="dropdown-item" href="orzechy.html"> Orzechy</a></li>
+                            <li><a class="dropdown-item" href="ziola.html"> Przyprawy i zioła</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj owoce</a></li>
+                            <li><a class="dropdown-item" href="farmy.html">Mapa naszej Farmy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" data-bs-backdrop="static" id="navbar-modal" tabindex="-1" role="dialog" aria-labelledby="navbar-modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            <div class="modal-body">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Koszyk.html"><i class="fa fa-shopping-cart"></i><span class="text"> Koszyk</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-tags"></i><span class="text"> Produkty</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Przegladaj.html"> Przeglądaj nasze produkty</a></li>
+                            <li><a class="dropdown-item" href="Owoce_warzywa.html"> Owoce i warzywa</a></li>
+                            <li><a class="dropdown-item" href="orzechy.html"> Orzechy</a></li>
+                            <li><a class="dropdown-item" href="ziola.html"> Przyprawy i zioła</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i><span class="text">Formularze</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="login.html"> Zaloguj się</a></li>
+                            <li><a class="dropdown-item" href="register.html"> Zarejestruj się</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-search"></i><span class="text">Więcej</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="regulamin.html">Regulamin</a></li>
+                            <li><a class="dropdown-item" href="opinie.html">Opinie użytkowników</a></li>
+                            <li><a class="dropdown-item" href="map.html">Mapa naszych sklepów</a></li>
+                            <li><a class="dropdown-item" href="narysuj.html">Narysuj owoce</a></li>
+                            <li><a class="dropdown-item" href="farmy.html">Mapa naszej Farmy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prezentacja.html"><i class="fa fa-info-circle"></i><span class="text">Informacje</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kontakt.html"><i class="fa fa-phone"></i><span class="text"> Kontakt</span></a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container-main">
+        <header class="hero-section">
+            <div class="container text-center">
+                <h1>Świeże Smaki</h1>
+                <p>Naturalnie najlepsze owoce, warzywa, orzechy i zioła</p>
+                <a href="#featured-products" class="btn btn-primary">Zobacz Nasze Produkty</a>
+            </div>
+        </header>
+    
+        <section id="featured-products" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Polecane Produkty</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/chipsy-kokosowe.png" class="card-img-top" alt="Chipsy Kokosowe">
+                            <div class="card-body">
+                                <h5 class="card-title">Chipsy Kokosowe</h5>
+                                <p class="card-text">Chrupiące i pełne egzotycznego smaku, idealne jako zdrowa przekąska.</p>
+                                <a href="Owoce_warzywa.html" class="btn btn-success">Kup Teraz</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/morela_suszona.png" class="card-img-top" alt="Morele suszone">
+                            <div class="card-body">
+                                <h5 class="card-title">Morele suszone</h5>
+                                <p class="card-text">Słodkie i pełne witamin, doskonałe do deserów i jako przekąska.</p>
+                                <a href="Owoce_warzywa.html" class="btn btn-success">Kup Teraz</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/orzech-laskowy.png" class="card-img-top" alt="Orzech laskowy">
+                            <div class="card-body">
+                                <h5 class="card-title">Orzech laskowy</h5>
+                                <p class="card-text">Bogate w zdrowe tłuszcze i idealne do pieczenia oraz jako dodatek do musli.</p>
+                                <a href="orzechy.html" class="btn btn-success">Kup Teraz</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="../zdjecia/kurkuma.png" class="card-img-top" alt="Kurkuma">
+                            <div class="card-body">
+                                <h5 class="card-title">Kurkuma</h5>
+                                <p class="card-text">Znana ze swoich właściwości zdrowotnych, kurkuma dodaje koloru i smaku potrawom.</p>
+                                <a href="ziola.html" class="btn btn-success">Kup Teraz</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    
+
+        <section id="about" class="bg py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">O Nas</h2>
+                <p class="text-center">Świeże Smaki to rodzinna firma z tradycjami. Od lat dostarczamy najwyższej jakości produkty prosto z naszej farmy do Twojego domu.</p>
+            </div>
+        </section>
+    
+      <section id="testimonials" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Opinie Klientów</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Odkąd odkryłem ten sklep, moje posiłki stały się znacznie zdrowsze. Świeżość produktów jest nieporównywalna!"</p>
+                    <cite>– Ewa Nowak</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Zakupy tutaj to czysta przyjemność. Orzechy i zioła zawsze najwyższej jakości. Moje wypieki nigdy nie smakowały lepiej!"</p>
+                    <cite>– Tomasz Baran</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Fantastyczna obsługa i niesamowita różnorodność owoców egzotycznych, które są trudno dostępne gdzie indziej."</p>
+                    <cite>– Marta Zielińska</cite>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Informacje</h5>
+            <p>
+                Świeże Smaki - Twój sklep z natury!<br>
+                Znajdziesz u nas szeroki wybór świeżych warzyw, owoców, orzechów i ziół.<br>
+                <br>
+                Kontakt:<br>
+                Email: kontakt@swiezesmaki.pl<br>
+                Telefon: +48 987 654 321<br>
+                <br>
+                Adres:<br>
+                Świeże Smaki Sp. z o.o.<br>
+                ul. Zielona 5<br>
+                00-002 Poznań<br>
+                <br>
+            </p>
+            </div>
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Elementy obowiązkowe:</h5>
+              <p>
+  
+                  Zegar:
+                  <div id="zegar"></div>
+                  <br>
+                  Data:
+                  <div id="data"></div>
+                  <br>
+                  <div id="l_wizyty">Liczba odwiedzin:               
+                  <br>
+                  <span id="visit_count">0</span>
+                  </div>
+                  <br>
+                  <div id="czas_na_stronie">Czas spędzony na stronie:              
+                    <br>
+                    <span id="czas_ktory_uplynal">0 sekund</span>
+                  </div>
+                  <script src="../js/zegar.js"></script>
+                  <script src="../js/licznik_wizyt.js"></script>
+  
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          <a class="text-body" style='text-decoration: none;'>Projekt strony internetowej wykonany w ramach zaliczenia przedmiotu MO: TIiSKwE na kierunku Energetyka. Mikołaj Białek</a>
+        </div>
+      </footer>
+
+
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/navbar_hide.js"></script>
+</body>
+</html>

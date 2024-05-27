@@ -1,0 +1,134 @@
+
+body {
+    justify-content: center; 
+    align-items: center;
+}
+
+.container-main {
+    margin-top: 0; 
+    max-width: 80%; 
+    width: 80%; 
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.content {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.cart-item {
+    border-bottom: 1px solid black;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+.cart {
+    margin: 20px 0;
+    background-color: transparent;
+    padding: 60px 0;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.cart-item {
+    border-bottom: 1px solid black;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.center-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cart-item img {
+    width: 115px;
+}
+
+.cart-item h5 {
+    padding: 0 45px;
+}
+
+.cart-item .remove-item {
+    width: 25px!important;
+}
+
+.btn-default {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.cart-item .form-control {
+    background-color: #F6F5FA;
+    border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.form-control.text-center::-webkit-inner-spin-button,
+.form-control.text-center::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control.text-center {
+  -moz-appearance: textfield;
+}
+
+.input-group {
+    width: unset;
+    flex-wrap: nowrap;
+}
+
+.status {
+    text-align: right;
+}
+
+.check-out, .clear-cart {
+    padding: 10px 30px;
+    font-size: 19px;
+    border: none;
+}
+
+.check-out {
+    background-color: #2FBE70;
+    color: #fff;
+}
+
+.clear-cart {
+    background-color: #FFC107;
+    color: #fff;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+h1{
+    margin-top: 3%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: auto;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        padding: .375rem .75rem;
+        font-size: 1rem;
+    }
+}

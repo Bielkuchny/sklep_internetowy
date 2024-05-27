@@ -1,0 +1,23 @@
+h1, h4{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    img[usemap] {
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    img[usemap] {
+        width: 60%;
+        height: 60%;
+        border-radius: 30px;
+    }
+}

@@ -1,0 +1,19 @@
+.container-main {
+    height: 120vh;
+    text-align: center; 
+}
+h2{
+    text-align: center;
+}
+canvas{
+    background-color: white;
+}
+
+#drawingCanvas {
+    margin: 0 auto; 
+    display: block; 
+    border: 1px solid #000;
+}
+.tool-button {
+    margin: 5px; 
+}

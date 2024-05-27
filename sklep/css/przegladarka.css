@@ -1,0 +1,65 @@
+.container-main {
+    height: auto;
+    margin-bottom: 5%;
+}
+.carousel-item img {
+  max-width: 50%;
+  max-height: 50%; 
+  margin-left: 26.5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons .button {
+  display: inline-block;
+  margin: 0 5px; 
+  cursor: pointer;
+  transform: scale(1); 
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+@media (min-width: 481px) {
+  .buttons .button {
+    transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+}
+
+@media (min-width: 769px) {
+  .buttons .button {
+    transform: scale(2); 
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+  }
+}
+
+@media (max-width: 1670px) {
+  .buttons .button {
+    display: none;
+  }
+}
+
+@media (min-width: 1781px) {
+  .buttons .button {
+    display: none;
+  }
+}
+
+h1 {
+    margin-top: 3%;
+    text-align: center;
+}

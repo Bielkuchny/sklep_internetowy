@@ -1,0 +1,180 @@
+body {
+    margin: 0; 
+    padding-top: 70px; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: #C9FFBF;  
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF); 
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); 
+    
+}
+
+.navbar {
+    margin: 0 auto;
+    max-width: 1500px; 
+    width: 100%;
+    border: 0;
+    border-radius: 50px;
+    background: linear-gradient(to right, #ff5858, #f857a6);
+    transition: top 0.3s;
+}
+
+.navbar .nav-item > a, .navbar-brand {
+    color: white;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+}
+.navbar .nav-item > a .text {
+    display: inline-block;
+    max-width: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-width 0.5s ease, opacity 0.5s ease;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+.navbar .nav-item > a:hover .text {
+    max-width: 100px;
+    opacity: 1;
+}
+.dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    color: #000;
+}
+
+
+.dropdown-menu.show {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    background: linear-gradient(to right, #ff5858, #f857a6);
+    border: none;
+}
+.dropdown-menu a {
+    color: white;
+}
+.dropdown-menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.form-control {
+    background: rgba(255, 255, 255, 0.7);
+    border: 0;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+.form-control:hover {
+    background: white;
+}
+.navbar .fa {
+    margin-right: 5px;
+}
+
+.modal-dialog {
+    margin-left: -3px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.modal-dialog .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.modal-dialog .modal-body {
+    padding-top: 65px;
+}
+
+.modal-dialog .nav-link {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.modal-dialog .nav-link:hover::before,
+.modal-dialog .nav-link:active::before {
+    width: 0;
+    visibility: hidden;
+}
+
+.bg-body-tertiary {
+    background-color: #fff;
+}
+.modal-content .dropdown-menu {
+    width: 100vw;
+    left: 0 !important;
+    right: 0 !important;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+  }
+}
+@media (min-width: 1000px) {
+    .container {
+        max-width: 1200px; 
+    }
+    .navbar {
+        max-width: 1200px; 
+    }
+}
+.row{
+    color: black;
+}
+
+
+
+@media (max-width: 340px) {
+
+.navbar-brand, .nav-link {
+        font-size: 0.8rem; 
+}
+
+
+.modal-content {
+        padding: 10px; 
+}
+
+.regulamin-container h2 {
+        font-size: 1.2rem; 
+}
+
+.regulamin-container ul {
+        padding-left: 15px;
+}
+
+.regulamin-container li {
+        font-size: 0.7rem; 
+}
+
+footer .text-uppercase {
+        font-size: 0.8rem; 
+}
+
+footer p {
+        font-size: 0.7rem; 
+}
+
+
+.container, .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+}

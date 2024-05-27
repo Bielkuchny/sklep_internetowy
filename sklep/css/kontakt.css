@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 0; 
+    margin-bottom: 25%;
+    padding: 5%;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    box-shadow: none;
+    outline: none; 
+}
+
+button.sent {
+    padding: 10px;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button.sent:hover {
+    background-color: #ff69b4; 
+}
+
+.contact-info, .social-icons, .contact-form {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.contact-info p, .social-icons p {
+    margin: 0 0 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.social-icons svg {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px; 
+    margin-bottom: 3%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea{
+    resize: none;
+}

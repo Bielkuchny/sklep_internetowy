@@ -1,0 +1,115 @@
+.container-main {
+  height: auto;
+  overflow-x: hidden;
+}
+
+.table_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    max-width: 90%; 
+    margin-bottom: 2%;
+  }
+  
+  .table-responsive {
+    min-height: .01%; 
+    overflow-x: auto; 
+  }
+  
+  th, td {
+    border: 1px solid #ffb6c1; /* Light pink border for table cells */
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  th {
+    background-color: #ff69b4; /* Hot pink background for table headers */
+    color: white; 
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    margin: 0 auto; 
+  }
+  
+  th, td {
+    word-wrap: break-word;
+  }
+  
+  input, select {
+    background-color: #fffaf0; /* Very light pink background for inputs */
+    border: solid 1px #ff69b4; /* Hot pink border for inputs */
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 3px #ffb6c1; /* Light pink shadow for inputs */
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px; 
+    margin: 10px auto; 
+  }
+  
+  h2{
+    text-align: center;
+    margin-top: 3%;
+    color: #ffffff; /* Deep pink color for headings */
+  }
+  
+  #opinionForm .form-group {
+    margin-bottom: 10px; 
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 718px) {
+    .table_container table {
+      width: auto; 
+    }
+  
+    .table_container th,
+    .table_container td {
+      padding: 5px; 
+      font-size: 0.8em; 
+    }
+  
+    .table_container .optional-column {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 567px) {
+    .table-responsive-custom table {
+      width: auto; 
+    }
+    
+    .table-responsive-custom th,
+    .table-responsive-custom td {
+      padding: 5px; 
+      font-size: 0.2em; 
+    }
+  
+    .table-responsive-custom .hide-on-mobile {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .table_container table {
+      width: auto; 
+    }
+  
+    .table_container th,
+    .table_container td {
+      padding: 5px; 
+    }
+  }
+  
+  .btn-primary {
+    background-color: #ff1493; /* Deep pink background for buttons */
+    border-color: #ff69b4; /* Hot pink border for buttons */
+    margin-bottom: 3%;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff69b4; /* Hot pink background for buttons on hover */
+    border-color: #ff1493; /* Deep pink border for buttons on hover */
+  }
